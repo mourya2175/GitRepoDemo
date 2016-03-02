@@ -31,6 +31,7 @@ public class Basics_Program {
 	  //click on link
 	  driver.findElement(By.linkText("personalization settings page")).click();
 //	  Thread.sleep(5000);
+System.out.println("This is for testing purpose");
   }
   @BeforeClass
   public void beforeClass() {
